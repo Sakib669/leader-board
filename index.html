@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Adding Personal CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Leader Board</title>
+</head>
+<body style="background-color: #E5E5E5;">
+    <!-- Adding Navbar Here -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icons/logo.png" alt="" width="40" height="50">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active ms-3" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ms-3" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ms-3" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ms-3" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <img src="images/icons/profile.png " alt="" width="40" class="ms-3">  
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Main area  -->
+    <main>
+        <section class="container- top-player mx-auto">
+            <h5 class="p-4">Top Player</h5>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 player p-4  d-flex align-items-center">
+                    <img src="images/players/player-1.png" alt="">
+                    <p class="ps-3">playe-1</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-4  d-flex align-items-center">
+                    <img src="images/players/player-2.png" alt="">
+                    <p class="ps-3">playe-2</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-4  d-flex align-items-center">
+                    <img src="images/players/player-3.png" alt="">
+                    <p class="ps-3">playe-3</p>
+                </div>
+           
+            
+                <div class="col-md-4 col-sm-6 player p-4  d-flex align-items-center">
+                    <img src="images/players/player-4.png" alt="">
+                    <p class="ps-3">playe-1</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-4  d-flex align-items-center">
+                    <img src="images/players/player-5.png" alt="">
+                    <p class="ps-3">playe-2</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-4  d-flex align-items-center">
+                    <img src="images/players/player-6.png" alt="">
+                    <p class="ps-3">playe-3</p>
+                </div>
+            </div>
+            <h5 class="p-4">Top Blogs</h5>
+            <div class="lower-main row">
+             <div class="col-md-6 d-flex align-items-center">
+              <div class="p-2 lower">
+                <img src="images/blogs/blog-1.png" alt="">
+              </div>
+              <div class="p-2">
+                <h3>13 of My Favourite</h3>
+                <h3>UX/UI Goodies</h3>
+              <p><span>by</span> Danny Sapio</p>
+              </div>
+             </div>
+             <div class="col-md-6 d-flex align-items-center">
+              <div class="p-2 lower">
+                <img src="images/blogs/blog-2.png" alt="">
+              </div>
+              <div class="p-2">
+                <h3>UI cheat sheet:</h3>
+                <h3>list vs grids</h3>
+              <p><span>by</span> Tess Gadd</p>
+              </div>
+             </div>
+             </div>
+             <div class="lower-main row ">
+              <div class="col-md-6  align-items-center">
+                <div class="p- lower">
+                  <img src="images/blogs/blog-3.png" alt="">
+                </div>
+                <div class="p-2">
+                  <h3>7 typography tips</h3>
+                  <h3>for interface design</h3>
+                <p><span>by</span> Jeremiah Lam</p>
+                </div>
+               </div>
+               </div>
+               <div class="col-md-6 d-flex align-items-center">
+                <div class="p-2 lower">
+                  <img src="images/blogs/blog-4.png" alt="">
+                </div>
+                <div class="p-2">
+                  <h3>Your logo is</h3>
+                  <h3>Copied</h3>
+                <p><span>by</span> Ferdinand Vogler</p>
+                </div>
+               </div>
+             </div>
+             </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Adding Cards -->
+    <div class="container cards ">
+      <h5>Latest Courses</h5>
+      <div class="card-group ">
+        <div class="card ">
+          <img src="images/courses/course-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React-The Complete
+              Guide
+            </h5>
+          </div>
+          <div class="card-footer d-flex justify-content-around">
+            <div class="cf-img">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            </div>
+            <div>
+              <small class="text-muted">4.5</small>
+            </div>
+            <div class="timer  justify-content-center">
+              <img src="images/icons/clock.png" alt="" >
+              <p class="red-time">01:30 hr</p>
+            </div>
+          </div>
+        </div>
+        <div class="card ">
+          <img src="images/courses/course-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Powerpoint 2020 
+              Master Course
+            </h5>
+          </div>
+          <div class="card-footer d-flex justify-content-around">
+            <div class="cf-img">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            </div>
+            <div>
+              <small class="text-muted">4.3</small>
+            </div>
+            <div class="timer  justify-content-center">
+              <img src="images/icons/clock.png" alt="" >
+              <p class="red-time">01:20 hr</p>
+            </div>
+          </div>
+        </div>
+        <div class="card  ">
+          <img src="images/courses/course-3.png" class="card-img-top" alt="...">
+          <div class="card-body"> 
+            <h5 class="card-title">The Complete Javascript 
+              Course 2020</h5>       
+          </div>
+          <div class="card-footer d-flex justify-content-around">
+            <div class="cf-img">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            <img src="images/icons/star.png" alt="">
+            </div>
+            <div>
+              <small class="text-muted">4.5</small>
+            </div>
+            <div class="timer  justify-content-center">
+              <img src="images/icons/clock.png" alt="" >
+              <p class="red-time">01:30 hr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Adding Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>

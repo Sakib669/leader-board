@@ -1,0 +1,57 @@
+.nav-item{
+    margin: 0px 20px;
+}
+.nav-item img{
+    margin: 0px 20px;
+}
+.top-player{
+    height: 879px;
+    width: 870px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.player img{
+    width: 56px;
+
+}
+
+.lower img{
+    width: 177px;
+    height: 117px;
+}
+.cards{
+    height: 879px;
+    width: 870px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.card{
+    border: none;
+    margin: 10px;
+}
+.card-footer{
+    height: 30px !important;
+}
+.cf-img{
+    width: 70px;
+}
+.cf-img img{
+    width: 20%;
+}
+.timer{
+    width: 90px;
+    border: .5px solid #ef2e2e;
+    background-color: #f7c6c6;
+    border-radius: 50px;
+    height: 30px;
+}
+.timer img{
+    /* width: 20%; */
+    height: 100%;
+}
+.red-time{
+    display: inline;
+    font-size: 14px;
+    color: #ef2e2e;
+    margin-right: 5px;
+}
